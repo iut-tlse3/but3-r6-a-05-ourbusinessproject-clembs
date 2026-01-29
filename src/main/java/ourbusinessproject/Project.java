@@ -16,6 +16,10 @@ public class Project {
     private String title;
     private String description;
 
+    public Long getId() {
+        return id;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -31,6 +35,4 @@ public class Project {
     public void setDescription(String description) {
         this.description = description;
     }
-
-
 }
